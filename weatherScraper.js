@@ -1,6 +1,9 @@
 const http = require('http');
 const request = require('request');
 var fs = require('fs');
+var express = require('express')
+var app = express()
+app.set('view engine',ejs);
 const hostname = '127.0.0.1';
 const port = 3000;
 const apikey = '731c425cebbfb6aff47feacecdb57425';
